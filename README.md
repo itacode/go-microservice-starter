@@ -23,6 +23,10 @@ Build
 ```sh
 docker build -t go_app -f .\build\package\Dockerfile .
 ```
+Run
+```sh
+docker run -p 8080:8080 go_app:latest
+```
 Docker compose up
 ```sh
 docker-compose -f .\docker-compose.yml up -d --build
