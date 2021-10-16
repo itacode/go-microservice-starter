@@ -10,7 +10,7 @@ import (
 )
 
 func NewServer() *http.Server {
-	fmt.Println("gin.Mode()", gin.Mode())
+	fmt.Println("gin.Mode():", gin.Mode())
 
 	addr := os.Getenv("APP_ADDR")
 	if addr == "" {
