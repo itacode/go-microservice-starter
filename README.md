@@ -18,6 +18,20 @@ In the Makefile there are the commands to develop and build:
 - `make`: format, lint, examine and build
 - `make start`: start the server in production mode
 
+## Docker
+Build
+```sh
+docker build -t go_app -f .\build\package\Dockerfile .
+```
+Docker compose up
+```sh
+docker-compose -f .\docker-compose.yml up -d --build
+```
+Docker compose down
+```sh
+docker-compose -f .\docker-compose.yml down
+```
+
 ## Installation
 To easily install the latest version of [GNU Make](https://www.gnu.org/software/make/) for Windows, you may execute `scoop install make` ([Scoop](https://scoop.sh/)) or `choco install make` ([Chocolatey](https://chocolatey.org/)).  
 To install globally [Air](https://github.com/cosmtrek/air) for the live reload, execute `go install https://github.com/cosmtrek/air`.

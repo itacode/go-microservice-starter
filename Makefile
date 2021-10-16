@@ -20,7 +20,7 @@ vet: fmt
 .PHONY: vet
 
 build: vet
-	go build -o main ./cmd/app/main.go
+	go build ./cmd/app/main.go
 .PHONY: build
 
 start: export APP_ENV=production
