@@ -11,9 +11,9 @@ It's a lean boilerplate to start developing a microservice in Go.
 
 ## Developing
 In the Makefile there are the commands to develop and build:
-- run the app with live reload (with Air): `make dev`
-- lint, format and build: `make`
-- start the server in production mode `start`
+- `make dev`: run the app with live reload (with Air)
+- `make`: format, lint, examine and build
+- `make start`: start the server in production mode
 
 ## Installation
 To easily install [GNU Make](https://www.gnu.org/software/make/) in Windows, you may execute `scoop install make` ([Scoop](https://scoop.sh/)) or `choco install make` ([Chocolatey](https://chocolatey.org/)).
