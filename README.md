@@ -20,4 +20,4 @@ In the Makefile there are the commands to develop and build:
 
 ## Installation
 To easily install [GNU Make](https://www.gnu.org/software/make/) in Windows, you may execute `scoop install make` ([Scoop](https://scoop.sh/)) or `choco install make` ([Chocolatey](https://chocolatey.org/)).  
-To install [Air](https://github.com/cosmtrek/air) for the live reload, execute `go install https://github.com/cosmtrek/air`.
+To install globally [Air](https://github.com/cosmtrek/air) for the live reload, execute `go install https://github.com/cosmtrek/air`.
