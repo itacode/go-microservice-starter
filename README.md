@@ -9,11 +9,13 @@ It's a lean boilerplate to start developing a microservice in Go.
 - Docker configuration
 - Docker-compose configuration
 
+## Developing
 In the Makefile there are the commands to develop and build:
 - run the app with live reload (with Air): `make dev`
 - lint, format and build: `make`
 - start the server in production mode `start`
 
+## Installation
 To easily install [GNU Make](https://www.gnu.org/software/make/) in Windows, you may execute `scoop install make` ([Scoop](https://scoop.sh/)) or `choco install make` ([Chocolatey](https://chocolatey.org/)).
 
 To install [Air](https://github.com/cosmtrek/air) for the live reload, execute `go install https://github.com/cosmtrek/air`.  
