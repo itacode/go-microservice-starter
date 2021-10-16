@@ -8,6 +8,7 @@ It's a lean boilerplate to start developing a microservice in Go.
 - Air live reload configuration
 - Docker configuration
 - Docker-compose configuration
+
 The project layout follows the [Standard Go Project Layout](https://github.com/golang-standards/project-layout).  
 I adopted the [godotenv](https://pkg.go.dev/github.com/joho/godotenv) to load environment variables, following this [convention](https://github.com/bkeepers/dotenv#what-other-env-files-can-i-use).
 
