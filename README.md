@@ -14,7 +14,7 @@ I adopted the [godotenv](https://pkg.go.dev/github.com/joho/godotenv) to load en
 
 ## Development
 In the Makefile there are the commands to develop and build:
-- `make dev`: run the app with live reload (with Air)
+- `make dev`: run the app with live reload (Air)
 - `make`: format, lint, examine and build
 - `make start`: start the server in production mode
 
