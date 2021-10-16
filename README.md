@@ -4,7 +4,7 @@ It's a lean boilerplate to start developing a microservice in Go.
 ## Features
 - Gin server
 - Godotenv to load environment variables
-- Makefile for the development tasks
+- Makefile for the development and production tasks
 - Air live reload configuration
 - Docker configuration
 - Docker-compose configuration
