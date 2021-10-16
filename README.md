@@ -12,7 +12,7 @@ It's a lean boilerplate to start developing a microservice in Go.
 The project layout follows the [Standard Go Project Layout](https://github.com/golang-standards/project-layout).  
 I adopted the [godotenv](https://pkg.go.dev/github.com/joho/godotenv) to load environment variables, following this [convention](https://github.com/bkeepers/dotenv#what-other-env-files-can-i-use).
 
-## Developing
+## Development
 In the Makefile there are the commands to develop and build:
 - `make dev`: run the app with live reload (with Air)
 - `make`: format, lint, examine and build
