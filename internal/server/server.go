@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/itacode/go-microservice-starter/internal/api/router"
 )
 
 func NewServer() *http.Server {
@@ -17,13 +18,7 @@ func NewServer() *http.Server {
 		addr = ":8080"
 	}
 
-	router := gin.Default()
-
-	router.GET("/ping", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "pong",
-		})
-	})
+	router := router.NewRouter()
 
 	server := &http.Server{
 		Addr:           addr,
