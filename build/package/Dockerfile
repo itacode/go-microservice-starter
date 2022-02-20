@@ -1,5 +1,5 @@
 # Dockerfile Reference: https://docs.docker.com/engine/reference/builder/
-FROM golang:1.17.2-alpine
+FROM golang:1.17-alpine
 
 # For alpine image
 RUN apk update && apk upgrade && \
