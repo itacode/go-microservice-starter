@@ -1,17 +1,17 @@
 package server
 
 import (
-	"fmt"
 	"net/http"
 	"os"
 	"time"
 
 	"github.com/gin-gonic/gin"
 	"github.com/itacode/go-microservice-starter/internal/api/router"
+	"github.com/itacode/go-microservice-starter/internal/logger"
 )
 
-func NewServer() *http.Server {
-	fmt.Println("gin.Mode():", gin.Mode())
+func Serve() {
+	logger.InfoLog.Println("gin.Mode():", gin.Mode())
 
 	addr := os.Getenv("APP_ADDR")
 	if addr == "" {
@@ -29,6 +29,4 @@ func NewServer() *http.Server {
 		MaxHeaderBytes: 1 << 20,
 	}
 	server.ListenAndServe()
-
-	return server
 }
