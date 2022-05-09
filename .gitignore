@@ -1,6 +1,9 @@
 /tmp
 /main
 
+# local env files
+.env.local
+.env.*.local
 
 # Created by https://www.toptal.com/developers/gitignore/api/go,sublimetext,visualstudiocode,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,sublimetext,visualstudiocode,macos
